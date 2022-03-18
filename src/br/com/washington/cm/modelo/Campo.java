@@ -74,6 +74,10 @@ public class Campo {
 		minado = true;
 	}
 	
+	public boolean isMinado() {
+		return minado;
+	}
+	
 	public boolean isMarcado() {
 		return marcado;
 	}
@@ -84,10 +88,6 @@ public class Campo {
 	
 	public boolean isFechado() {
 		return !isAberto();
-	}
-	
-	public boolean isMinado() {
-		return minado;
 	}
 	
 	public int getLinha() {
